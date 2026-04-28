@@ -55,6 +55,14 @@ export default function Footer() {
                 >
                   WhatsApp
                 </a>
+                <a
+                  href="https://t.me/Crystal_nailss"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Работы мастера
+                </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
