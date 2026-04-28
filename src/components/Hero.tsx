@@ -28,8 +28,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/30" />
 
       <div className="relative z-10 text-center text-white px-6">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          МАНИКЮР
+        <p className="text-sm uppercase tracking-widest opacity-70 mb-4">Мастер маникюра</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4">
+          ВАЛЕРИЯ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
           Идеальные ногти — ваша визитная карточка. Запишитесь к мастеру уже сегодня.
