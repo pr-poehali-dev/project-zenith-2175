@@ -15,6 +15,14 @@ export default function Featured() {
             <span className="text-xl lg:text-2xl text-neutral-900">Маникюр</span>
             <span className="text-xl lg:text-2xl font-bold text-neutral-900">1 300 ₽</span>
           </div>
+          <div className="flex justify-between items-center border-b border-neutral-200 pb-4">
+            <span className="text-xl lg:text-2xl text-neutral-900">Наращивание</span>
+            <span className="text-xl lg:text-2xl font-bold text-neutral-900">1 800 ₽</span>
+          </div>
+          <div className="flex justify-between items-center border-b border-neutral-200 pb-4">
+            <span className="text-xl lg:text-2xl text-neutral-900">Маникюр без покрытия</span>
+            <span className="text-xl lg:text-2xl font-bold text-neutral-900">500 ₽</span>
+          </div>
         </div>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
           Записаться на маникюр
