@@ -34,9 +34,14 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
           Идеальные ногти — ваша визитная карточка. Запишитесь к мастеру уже сегодня.
         </p>
-        <button className="border border-white text-white px-8 py-3 uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
+        <a
+          href="https://t.me/Ccrystal_baby"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block border border-white text-white px-8 py-3 uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"
+        >
           Записаться
-        </button>
+        </a>
       </div>
     </div>
   );

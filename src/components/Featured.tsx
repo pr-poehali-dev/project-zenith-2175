@@ -24,9 +24,14 @@ export default function Featured() {
             <span className="text-xl lg:text-2xl font-bold text-neutral-900">500 ₽</span>
           </div>
         </div>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <a
+          href="https://t.me/Ccrystal_baby"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide inline-block"
+        >
           Записаться на маникюр
-        </button>
+        </a>
       </div>
     </div>
   );
